@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/subjecttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Subject"
+        android:textColor="#c71313"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/percenttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="100%"
+        android:textColor="#837e7e"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/attendedtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="32dp"
+        android:text="Total attended:"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/attendedtxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="134dp"
+        android:text="0"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/minpercenttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="120dp"
+        android:text="0"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/minpercenttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="35dp"
+        android:text="Min Percent:"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/safebunkstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110.8dp"
+        android:layout_marginLeft="35dp"
+        android:text="Safe Bunks:"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/safebunkstxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110.8dp"
+        android:layout_marginLeft="115dp"
+        android:text="0"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="300dp"
+        app:srcCompat="@drawable/add" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="300dp"
+        app:srcCompat="@drawable/add" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="330dp"
+        app:srcCompat="@drawable/minus" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="330dp"
+        app:srcCompat="@drawable/minus" />
+
+    <TextView
+        android:id="@+id/totalconstant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="65dp"
+        android:text="Total:" />
+    <TextView
+        android:id="@+id/totalcaltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="65dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/bunkconstant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="105dp"
+        android:text="Bunks:" />
+    <TextView
+        android:id="@+id/bunkcaltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="105dp"
+        android:text="0" />
+
+</RelativeLayout>
